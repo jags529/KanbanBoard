@@ -204,13 +204,6 @@ for(let i = 0; i<colorContAll.length; i++){
     })
 }
 
-
-// Local Storage Testing
-let btn = document.querySelector('button');
-btn.addEventListener('click', function(){
-    updateLocalStorage();
-})
-
 // function for updating local storage
 function updateLocalStorage(){
     let ticketArrStr = JSON.stringify(ticketArr);
